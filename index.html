@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MR RAJ SB - Official Store</title>
+
+<style>
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f1f2f6;
+}
+
+/* HEADER */
+header{
+    background:#1e272e;
+    color:white;
+    padding:25px;
+    text-align:center;
+}
+
+/* NAVBAR */
+nav{
+    background:#2f3640;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+nav a{
+    color:white;
+    padding:12px 18px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* SECTION */
+section{
+    padding:25px;
+}
+
+/* PRODUCTS GRID */
+.products{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap:20px;
+}
+
+/* PRODUCT CARD */
+.product{
+    background:white;
+    border-radius:10px;
+    padding:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.product img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.product h3{
+    margin:10px 0;
+}
+
+.price{
+    color:green;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.btn{
+    display:block;
+    margin-top:10px;
+    padding:10px;
+    border-radius:5px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+/* PAYMENT BOX */
+.payment-box{
+    background:white;
+    max-width:600px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer{
+    background:#1e272e;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+/* RESPONSIVE TEXT */
+@media(max-width:600px){
+    header h1{
+        font-size:22px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MR RAJ SB</h1>
+    <p>Official Physical Product Store (Owner: MR RAJ SB)</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Payment</a>
+    <a href="#">Contact</a>
+</nav>
+
+<!-- ================= PRODUCTS ================= -->
+<section>
+<h2 style="text-align:center;">Our Physical Products</h2>
+
+<div class="products">
+
+    <!-- PRODUCT BLOCK (COPY to add more) -->
+    <div class="product">
+        <img src="https://via.placeholder.com/400">
+        <h3>Product Name</h3>
+        <p>Short description of physical product</p>
+        <p class="price">Rs 3,000</p>
+
+        <!-- EDIT YOUR WHATSAPP NUMBER & PRODUCT NAME -->
+        <a class="btn whatsapp"
+        href="https://wa.me/92XXXXXXXXXX?text=I want to order this product">
+        Order on WhatsApp
+        </a>
+    </div>
+
+</div>
+</section>
+
+<!-- ================= PAYMENT ================= -->
+<section>
+<h2 style="text-align:center;">Payment Methods</h2>
+
+<div class="payment-box">
+    <p><strong>EasyPaisa:</strong> 03XXXXXXXXX</p>
+    <p><strong>JazzCash:</strong> 03XXXXXXXXX</p>
+    <p><strong>Cash on Delivery:</strong> Available</p>
+
+    <p style="color:red;">
+        Payment confirmation WhatsApp par bhejein
+    </p>
+</div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section>
+<h2>Contact Owner</h2>
+<p><strong>Owner:</strong> MR RAJ SB</p>
+<p>WhatsApp: 03XXXXXXXXX</p>
+<p>Email: example@gmail.com</p>
+</section>
+
+<footer>
+<p>© 2026 MR RAJ SB | Official Store</p>
+</footer>
+
+</body>
+</html>
